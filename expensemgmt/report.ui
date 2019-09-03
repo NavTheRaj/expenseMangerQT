@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>report</class>
+ <widget class="QDialog" name="report">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>570</width>
+    <height>695</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EXPENSE MANAGER</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/resources/img/exmgmtlogo.png</normaloff>:/resources/img/exmgmtlogo.png</iconset>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>330</y>
+     <width>121</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Monthly Saving</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mincome">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>330</y>
+     <width>281</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="roe">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>390</y>
+     <width>281</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>390</y>
+     <width>121</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rate of Expense</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ros">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>450</y>
+     <width>281</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>450</y>
+     <width>121</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rate of Saving</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closebtn">
+   <property name="geometry">
+    <rect>
+     <x>442</x>
+     <y>640</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:red;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="es">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>510</y>
+     <width>281</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>510</y>
+     <width>121</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Estimated Saving</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ee">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>570</y>
+     <width>281</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>570</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Estimated Expense</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>292</x>
+     <y>640</y>
+     <width>141</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(206, 92, 0);
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>Generate Report</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>640</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> 
+ color:white;
+background-color: rgb(114, 159, 207);</string>
+   </property>
+   <property name="text">
+    <string>My Panel</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>30</y>
+     <width>481</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="pieView"/>
+  </widget>
+  <widget class="QPushButton" name="getPdf">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>640</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(115, 210, 22);
+color: rgb(238, 238, 236);
+display:hidden;</string>
+   </property>
+   <property name="text">
+    <string>PDF</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="safe" native="true">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>510</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/resources/img/checked.png);</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout"/>
+  </widget>
+  <widget class="QWidget" name="warn" native="true">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>510</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/resources/img/warning.png)</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2"/>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

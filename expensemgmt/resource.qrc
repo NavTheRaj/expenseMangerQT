@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/exp.png</file>
+        <file>img/exmgmtlogo.png</file>
+        <file>db/mydb.db</file>
+        <file>db/mydb.sqbpro</file>
+        <file>img/warning.png</file>
+        <file>img/checked.png</file>
+        <file>img/icon.png</file>
+    </qresource>
+    <qresource prefix="/db"/>
+</RCC>
