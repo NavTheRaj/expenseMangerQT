@@ -116,7 +116,7 @@ void Expense::on_okbtn_clicked()
        qDebug()<<"Receiver email"<<sender;
 //<<<<------------code to sedn the mail
 
-       smtp = new Smtp("expensemanager.info@gmail.com", "noreply1234", "smtp.gmail.com");
+       smtp = new Smtp("<YOUR EMAIL>", "<PASSWORD>", "smtp.gmail.com");
        connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
 
 //       smtp->sendMail("EXPENSE ADDED",sender,
