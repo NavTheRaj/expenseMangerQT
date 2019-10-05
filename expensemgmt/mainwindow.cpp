@@ -53,7 +53,7 @@ try
 
       //<<<<------------code to send the mail via smtp protocol
 
-             smtp = new Smtp("expensemanager.info@gmail.com", "noreply1234", "smtp.gmail.com");
+             smtp = new Smtp("EMAIL", "PASSWORD", "smtp.gmail.com");
              connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
 
              smtp->sendMail("REGISTERED!!",email,
